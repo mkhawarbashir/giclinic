@@ -1,15 +1,27 @@
 <?php
-$servername = "remotemysql.com";
+$servername = "remotemysql.com:3306";
 $username = "gk5G7Iia9l";
 $password = "MIGiFsNi2N";
 $dbname="gk5G7Iia9l";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password);
 // Check connection
 if($conn)
 {
 	echo "connection made online database";
+	
+	$sql1 = "INSERT INTO patientpersonal (firstName,lastName, cnic, contactNumber, city) VALUES ('Khawar', 'Bashir', '3520112301209', '03334649525','Lahore')";
+	echo "Going to insert First Query";										
+
+	if($conn->query($sql1)===True){
+			echo "Record has been entered";
+			
+	}
+											
+	
+	
+	
 	$sql = "SELECT * FROM patientpersonal";
 	$result = $conn->query($sql);
 
