@@ -9,7 +9,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if($conn)
 {
-	echo "connection made";
+	echo "connection made online database";
 	$sql = "SELECT * FROM patientpersonal";
 	$result = $conn->query($sql);
 
