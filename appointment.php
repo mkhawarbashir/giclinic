@@ -77,11 +77,11 @@ http://www.tooplate.com/view/2098-health
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#top" class="smoothScroll">Home</a></li>
-                         <li><a href="#about" class="smoothScroll">About Us</a></li>
-                         <li><a href="#team" class="smoothScroll">Our Services</a></li>
-                         <li><a href="#news" class="smoothScroll">News</a></li>
-                         <li><a href="#google-map" class="smoothScroll">Contact</a></li>
+                         <li><a href="index.html#top" class="smoothScroll">Home</a></li>
+                         <li><a href="index.html#about" class="smoothScroll">About Us</a></li>
+                         <li><a href="index.html#team" class="smoothScroll">Our Services</a></li>
+                         <li><a href="index.html#news" class="smoothScroll">News</a></li>
+                         <li><a href="index.html#google-map" class="smoothScroll">Contact</a></li>
                          <li class="appointment-btn"><a href="#appointment">Make Appointment</a></li>
 						 <li class="appointment-btn"><a href="stafflogin.html">Clinic Staff Login</a></li>
                     </ul>
@@ -102,7 +102,7 @@ http://www.tooplate.com/view/2098-health
                                         <div class="col-md-offset-1 col-md-10">
                                              <h3>Let's make your life happier</h3>
                                              <h2>Healthy Living</h2>
-                                             <a href="#team" class="section-btn btn btn-default smoothScroll">Meet Our Doctor</a>
+                                             <a href="index.html#team" class="section-btn btn btn-default smoothScroll">Meet Our Doctor</a>
                                         </div>
                                    </div>
                               </div>
@@ -112,7 +112,7 @@ http://www.tooplate.com/view/2098-health
                                         <div class="col-md-offset-1 col-md-10">
                                              <h3>“Wherever the art of Medicine is loved, there is also a love of Humanity.”</h3>
                                              <h1>New way of curing</h1>
-                                             <a href="#about" class="section-btn btn btn-default btn-gray smoothScroll">More About Us</a>
+                                             <a href="index.html#about" class="section-btn btn btn-default btn-gray smoothScroll">More About Us</a>
                                         </div>
                                    </div>
                               </div>
@@ -122,7 +122,7 @@ http://www.tooplate.com/view/2098-health
                                         <div class="col-md-offset-1 col-md-10">
                                              <h3>“Let food be thy medicine and medicine be thy food.”</h3>
                                              <h2>Healthy stories</h2>
-                                             <a href="#news" class="section-btn btn btn-default btn-blue smoothScroll">Read Stories</a>
+                                             <a href="index.html#news" class="section-btn btn btn-default btn-blue smoothScroll">Read Stories</a>
                                         </div>
                                    </div>
                               </div>
